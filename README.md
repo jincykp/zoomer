@@ -1,44 +1,54 @@
-# zoomer
-A Flutter-based cab booking application that allows users to authenticate, fetch their current location, view routes, choose available vehicles, and make payments securely.
+# 🚖 Zoomio – Cab Booking App (User Side)
 
-📌 Features (Step-by-Step)
+**Zoomio** is a seamless, user-friendly cab booking app designed for quick and hassle-free rides. Developed using **Flutter** and integrated with **Firebase**, Zoomio provides a reliable ride-hailing experience, from booking to payment.
 
-1️⃣ Authentication & User Management
-✔ Email Authentication – Users can sign up or log in using their email.
-✔ Google Sign-In – Quick authentication via Google.
-✔ Firebase Integration – Secure authentication and user data management.
+---
 
-2️⃣ Location & Maps
-✔ Fetch Current Location – Uses GPS to detect the user’s real-time location.
-✔ Google Maps Integration – Displays routes and nearby available cabs.
+## ✨ Features
 
-3️⃣ Cab Booking Process
-✔ View Available Vehicles – Users can see a list of available vehicles.
-✔ Choose a Vehicle – Select a car, auto, or bike for the ride.
-✔ Estimated Fare – Displays the estimated trip cost before booking.
+- 🔐 **User Authentication** (Sign up/Login with Firebase Auth)
+- 📍 **Location Selection** (Pickup & Drop-off)
+- 🚗 **Vehicle Selection** (Choose from available cab types)
+- 📞 **Driver Communication** (Call or message driver after booking)
+- 📦 **Live Booking Updates** (Trip status and driver location)
+- 💳 **Secure Payments** (In-app payments via Razorpay integration)
+- 🌟 **Ratings & Reviews** (Rate your trip after completion)
 
-4️⃣ Payment Integration
-✔ Secure Payments – Users can pay via Razorpay.
-✔ Multiple Payment Options – Supports UPI, Wallets, Cards, and Net Banking.
+---
 
-5️⃣ Ride Confirmation & Tracking
-✔ Live Ride Tracking – Users can track their cab in real-time.
-✔ Ride History – Users can check their past rides.
+## 🛠 Tech Stack
 
-🛠 Technologies Used
-Flutter – Frontend framework
-Dart – Programming language
-Firebase – Authentication, database, and cloud storage
-Google Maps API – Location tracking & route display
-Geolocator Package – Fetching user location
-Razorpay – Payment gateway integration
-BLoC – State management (whichever you are using)
+- **Flutter** (Frontend)
+- **Firebase** (Backend – Auth, Firestore, Realtime Database, Cloud Messaging)
+- **State Management:** BLoC (Business Logic Component)
+- **Architecture: MVVM-inspired with Light Clean Architecture using BLoC
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Install Dependencies
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Run the App
+flutter run
+
+---
+
+🧠 Future Improvements
+📍 Real-time Driver Tracking on the map using live location updates
+
+💸 Integration with UPI/Multiple Payment Gateways for broader payment options
+
+🚖 Rental Services (Hourly or daily cab rentals)
+
+📦 Parcel Booking (Send and track parcel deliveries)
+
+📜 Trip History and Saved Locations for quick rebooking
+
+🎟️ Promo Codes and Offers for discounts and user engagement
+
+🔔 Push Notifications for trip updates, driver arrival, and ride status
+
+
+
+
+
